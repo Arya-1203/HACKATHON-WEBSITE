@@ -1,0 +1,921 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The TechClasher - Premier Technology Hackathon 2025</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Fixed Header -->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <div class="nav__brand">
+          <i class="fas fa-code"></i>
+          <span>TechClasher</span>
+        </div>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li><a href="#home" class="nav__link active">Home</a></li>
+            <li><a href="#about" class="nav__link">About</a></li>
+            <li><a href="#themes" class="nav__link">Themes</a></li>
+            <li><a href="#prizes" class="nav__link">Prizes</a></li>
+            <li><a href="#timeline" class="nav__link">Timeline</a></li>
+            <li><a href="#sponsors" class="nav__link">Sponsors</a></li>
+            <li><a href="#mentors" class="nav__link">Mentors</a></li>
+            <li><a href="#organizers" class="nav__link">Organizers</a></li>
+            <li><a href="#partners" class="nav__link">Partners</a></li>
+            <li><a href="#contact" class="nav__link">Contact</a></li>
+          </ul>
+          <div class="nav__close" id="nav-close">
+            <i class="fas fa-times"></i>
+          </div>
+        </div>
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="fas fa-bars"></i>
+        </div>
+      </nav>
+    </header>
+
+    <!-- <div class="arya">
+      <img
+        src="https://www.gniotgroup.edu.in/img/gniot-logo-new.webp?v=1"
+        class="arya" />
+    </div> -->
+
+    <div class="arya">
+      <img
+        src="https://www.gniotgroup.edu.in/img/gniot-logo-new.webp?v=1"
+        class="arya-img"
+        alt="GNIOT Logo" />
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero section" id="home">
+      <div class="hero__container container">
+        <div class="hero__content">
+          <h1 class="hero__title">
+            <span class="text-gradient">The TechClasher</span>
+          </h1>
+          <p class="hero__tagline">
+            Innovate. Code. Transform. Shape the Future of Technology
+          </p>
+          <div class="hero__info">
+            <div class="hero__dates">
+              <i class="fas fa-calendar-alt"></i>
+              <span>October 06-09, 2025</span>
+            </div>
+            <div class="hero__location">
+              <i class="fas fa-map-marker-alt"></i>
+              <span>Greater Noida Institute of Technology</span>
+            </div>
+          </div>
+          <div class="hero__buttons">
+            <button class="btn btn--primary" id="register-btn">
+              <i class="fas fa-user-plus"></i>
+              Register Now
+            </button>
+            <button class="btn btn--secondary" id="sponsor-btn">
+              <i class="fas fa-handshake"></i>
+              Become a Sponsor
+            </button>
+          </div>
+        </div>
+        <div class="hero__stats">
+          <div class="stat" id="countdown-stat">
+            <div class="stat__number" id="countdown-display">Loading...</div>
+            <div class="stat__label">Registration Ends</div>
+          </div>
+          <div class="stat">
+            <div class="stat__number">₹1 Lakh+</div>
+            <div class="stat__label">Prize Pool</div>
+          </div>
+          <div class="stat">
+            <div class="stat__number">4</div>
+            <div class="stat__label">Days</div>
+          </div>
+        </div>
+      </div>
+      <div class="hero__bg-elements">
+        <div class="bg-element bg-element--1"></div>
+        <div class="bg-element bg-element--2"></div>
+        <div class="bg-element bg-element--3"></div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about section" id="about">
+      <div class="container">
+        <div class="section__header">
+          <h2 class="section__title">About "The TechClasher"</h2>
+          <p class="section__subtitle">
+            Join us for innovation, coding, and transformation
+          </p>
+        </div>
+        <div class="about__content">
+          <div class="about__text">
+            <p>
+              The TechClasher is a Hackathon event that is organized by MANAN
+              Club of Department of CSE - AI/ AI-DS bringing together students,
+              professionals, and innovators to solve real-world challenges
+              through technology. This intensive hackathon provides a platform
+              for creative minds to showcase their skills, learn from industry
+              experts, and compete for exciting prizes.
+            </p>
+            <div class="about__features">
+              <div class="feature">
+                <i class="fas fa-users"></i>
+                <span>Collaborative Environment</span>
+              </div>
+              <div class="feature">
+                <i class="fas fa-lightbulb"></i>
+                <span>Innovation Focus</span>
+              </div>
+              <div class="feature">
+                <i class="fas fa-trophy"></i>
+                <span>Competitive Spirit</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Themes & Tracks Section -->
+    <section class="themes section" id="themes">
+      <div class="container">
+        <div class="section__header">
+          <h2 class="section__title">Domains & Tracks</h2>
+          <p class="section__subtitle">
+            Choose your theme and build something amazing
+          </p>
+        </div>
+        <div class="themes__grid">
+          <div class="theme-card" data-theme="ai-ml">
+            <div class="theme-card__icon">
+              <i class="fas fa-brain"></i>
+            </div>
+            <h3 class="theme-card__title">AI & Machine Learning</h3>
+            <p class="theme-card__description">
+              Build intelligent applications using AI/ML technologies to solve
+              real-world problems
+            </p>
+            <div class="theme-card__focus">
+              <!-- <span>Computer Vision</span>
+              <span>NLP</span>
+              <span>Deep Learning</span> -->
+            </div>
+          </div>
+          <div class="theme-card" data-theme="web-dev">
+            <div class="theme-card__icon">
+              <i class="fas fa-globe"></i>
+            </div>
+            <h3 class="theme-card__title">Web Development</h3>
+            <p class="theme-card__description">
+              Create innovative web applications using modern frameworks and
+              technologies
+            </p>
+            <div class="theme-card__focus">
+              <!-- <span>React</span>
+              <span>Node.js</span>
+              <span>PWAs</span> -->
+            </div>
+          </div>
+          <div class="theme-card" data-theme="edtech">
+            <div class="theme-card__icon">
+              <i class="fas fa-graduation-cap"></i>
+            </div>
+            <h3 class="theme-card__title">EdTech</h3>
+            <p class="theme-card__description">
+              Build a solution for interactive, adaptive, and accessible digital
+              learning
+            </p>
+            <div class="theme-card__focus">
+              <!-- <span>E-Learning</span>
+              <span>VR/AR Learning</span>
+              <span>Adaptive Learning</span> -->
+            </div>
+          </div>
+          <div class="theme-card" data-theme="blockchain">
+            <div class="theme-card__icon">
+              <i class="fas fa-link"></i>
+            </div>
+            <h3 class="theme-card__title">Blockchain & Web3</h3>
+            <p class="theme-card__description">
+              Build decentralized applications and explore blockchain technology
+            </p>
+            <div class="theme-card__focus">
+              <!-- <span>Smart Contracts</span>
+              <span>DApps</span>
+              <span>NFTs</span> -->
+            </div>
+          </div>
+          <div class="theme-card" data-theme="open">
+            <div class="theme-card__icon">
+              <i class="fas fa-lightbulb"></i>
+            </div>
+            <h3 class="theme-card__title">Open Innovation</h3>
+            <p class="theme-card__description">Create your own imagination</p>
+            <div class="theme-card__focus">
+              <!-- <span>Creative Solutions</span>
+              <span>Any Technology</span>
+              <span>Innovation</span> -->
+            </div>
+          </div>
+          <div class="theme-card" data-theme="healthtech">
+            <div class="theme-card__icon">
+              <i class="fas fa-heartbeat"></i>
+            </div>
+            <h3 class="theme-card__title">HealthTech</h3>
+            <p class="theme-card__description">
+              Innovate in healthcare with technology solutions for better
+              well-being
+            </p>
+            <div class="theme-card__focus">
+              <!-- <span>Telemedicine</span>
+              <span>Health Monitoring</span>
+              <span>Medical AI</span> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Prizes Section -->
+    <section class="prizes section" id="prizes">
+      <div class="container">
+        <div class="section__header">
+          <h2 class="section__title">Prizes & Awards</h2>
+          <p class="section__subtitle">
+            Compete for amazing rewards worth ₹1,00,000+
+          </p>
+        </div>
+        <div class="prizes__content">
+          <div class="main-prizes">
+            <div class="prize-card prize-card--gold">
+              <div class="prize-card__icon">
+                <i class="fas fa-trophy"></i>
+              </div>
+              <h3>1st Place</h3>
+              <!-- <div class="prize-card__amount"></div> -->
+            </div>
+            <div class="prize-card prize-card--silver">
+              <div class="prize-card__icon">
+                <i class="fas fa-medal"></i>
+              </div>
+              <h3>2nd Place</h3>
+              <!-- <div class="prize-card__amount">₹30,000</div> -->
+            </div>
+            <div class="prize-card prize-card--bronze">
+              <div class="prize-card__icon">
+                <i class="fas fa-award"></i>
+              </div>
+              <h3>3rd Place</h3>
+              <!-- <div class="prize-card__amount">₹20,000</div> -->
+            </div>
+          </div>
+          <div class="exclusive-swags">
+            <div class="swag-card">
+              <div class="swag-card__icon">
+                <i class="fas fa-gift"></i>
+              </div>
+              <h3>Exclusive SWAGS</h3>
+              <p class="swag-card__description">
+                Top participants will get exclusive SWAGS
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Timeline Section -->
+    <section class="timeline section" id="timeline">
+      <div class="container">
+        <div class="section__header">
+          <h2 class="section__title">Event Timeline</h2>
+          <p class="section__subtitle">Important dates and milestones</p>
+        </div>
+        <div class="timeline__content">
+          <div class="timeline-item" data-date="September 23, 2025">
+            <div class="timeline-item__marker"></div>
+            <div class="timeline-item__content">
+              <h4>Registration Opens</h4>
+              <p>Online registration opens for all participants</p>
+            </div>
+          </div>
+          <div class="timeline-item" data-date="October 04, 2025">
+            <div class="timeline-item__marker"></div>
+            <div class="timeline-item__content">
+              <h4>Registration Closes</h4>
+              <p>Final deadline for registration</p>
+            </div>
+          </div>
+          <div class="timeline-item" data-date="October 06 to 07, 2025">
+            <div class="timeline-item__marker"></div>
+            <div class="timeline-item__content">
+              <h4>Pitch Round (online)</h4>
+              <p>Pitch your ideas to get into top 50 for the Offline Round</p>
+            </div>
+          </div>
+          <div class="timeline-item" data-date="October 08, 2025">
+            <div class="timeline-item__marker"></div>
+            <div class="timeline-item__content">
+              <h4>Offline Round</h4>
+              <p>Top 20 teams are gearing up for final battle</p>
+            </div>
+          </div>
+          <div class="timeline-item" data-date="October 09, 2025">
+            <div class="timeline-item__marker"></div>
+            <div class="timeline-item__content">
+              <h4>Final Day</h4>
+              <p>
+                Final Presentation and Top Participants will be awarded in
+                Closing Ceremony
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why Participate Section -->
+    <section class="benefits section">
+      <div class="container">
+        <div class="section__header">
+          <h2 class="section__title">Why Participate?</h2>
+          <p class="section__subtitle">Benefits of joining The TechClasher</p>
+        </div>
+        <div class="benefits__grid">
+          <div class="benefit">
+            <i class="fas fa-network-wired"></i>
+            <h4>Network & Learn</h4>
+            <p>
+              Connect with like-minded developers and industry professionals
+            </p>
+          </div>
+          <div class="benefit">
+            <i class="fas fa-graduation-cap"></i>
+            <h4>Skill Development</h4>
+            <p>Enhance your technical skills and learn new technologies</p>
+          </div>
+          <div class="benefit">
+            <i class="fas fa-briefcase"></i>
+            <h4>Career Opportunities</h4>
+            <p>Get noticed by top tech companies and potential employers</p>
+          </div>
+          <div class="benefit">
+            <i class="fas fa-rocket"></i>
+            <h4>Innovation Platform</h4>
+            <p>Turn your ideas into reality and showcase your creativity</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sponsors Section -->
+    <section class="sponsors section" id="sponsors">
+      <div class="container">
+        <div class="section__header">
+          <h2 class="section__title">Our Sponsors</h2>
+          <p class="section__subtitle">Proudly supported by industry leaders</p>
+        </div>
+        <div class="sponsors__content">
+          <div class="sponsor-tier">
+            <h3 class="sponsor-tier__title diamond" style="color: white">
+              Powered By
+            </h3>
+            <div class="sponsor-cards">
+              <div class="sponsor-card" data-url="DIAMOND_SPONSOR_1_URL">
+                <a href="https://unstop.com/"
+                  ><img
+                    src="https://codecell-cmpn-vesit.ves.ac.in/assets/Unstop-DS6QPl1K.png"
+                    alt="Diamond Sponsor 1"
+                /></a>
+              </div>
+              <!-- <div class="sponsor-card" data-url="DIAMOND_SPONSOR_2_URL">
+                <img
+                  src="https://via.placeholder.com/200x100/FFD700/FFFFFF?text=Diamond+2"
+                  alt="Diamond Sponsor 2" />
+              </div> -->
+              <!-- <div class="sponsor-card" data-url="DIAMOND_SPONSOR_3_URL">
+                <img
+                  src="https://via.placeholder.com/200x100/FFD700/FFFFFF?text=Diamond+3"
+                  alt="Diamond Sponsor 3" />
+              </div>
+              <div class="sponsor-card" data-url="DIAMOND_SPONSOR_4_URL">
+                <img
+                  src="https://via.placeholder.com/200x100/FFD700/FFFFFF?text=Diamond+4"
+                  alt="Diamond Sponsor 4" />
+              </div> -->
+            </div>
+          </div>
+          <div class="sponsor-tier">
+            <h3
+              class="sponsor-tier__title gold"
+              style="color: rgb(211, 69, 69)">
+              Diamond Sponsors
+            </h3>
+            <div class="sponsor-cards">
+              <div class="sponsor-card" data-url="GOLD_SPONSOR_1_URL">
+                <a href="https://www.pw.live/"
+                  ><img
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Physics_wallah_logo.jpg/500px-Physics_wallah_logo.jpg"
+                /></a>
+              </div>
+              <!-- <div class="sponsor-card" data-url="GOLD_SPONSOR_2_URL">
+                <img
+                  src="https://via.placeholder.com/200x100/C9B037/FFFFFF?text=Gold+2"
+                  alt="Gold Sponsor 2" />
+              </div>
+              <div class="sponsor-card" data-url="GOLD_SPONSOR_3_URL">
+                <img
+                  src="https://via.placeholder.com/200x100/C9B037/FFFFFF?text=Gold+3"
+                  alt="Gold Sponsor 3" />
+              </div>
+              <div class="sponsor-card" data-url="GOLD_SPONSOR_4_URL">
+                <img
+                  src="https://via.placeholder.com/200x100/C9B037/FFFFFF?text=Gold+4"
+                  alt="Gold Sponsor 4" />
+              </div> -->
+            </div>
+          </div>
+          <!-- <div class="sponsor-tier">
+            <h3 class="sponsor-tier__title silver">Silver Sponsors</h3>
+            <div class="sponsor-cards">
+              <div class="sponsor-card" data-url="SILVER_SPONSOR_1_URL">
+                <img
+                  src="https://via.placeholder.com/200x100/C0C0C0/000000?text=Silver+1"
+                  alt="Silver Sponsor 1" />
+              </div>
+              <div class="sponsor-card" data-url="SILVER_SPONSOR_2_URL">
+                <img
+                  src="https://via.placeholder.com/200x100/C0C0C0/000000?text=Silver+2"
+                  alt="Silver Sponsor 2" />
+              </div>
+              <div class="sponsor-card" data-url="SILVER_SPONSOR_3_URL">
+                <img
+                  src="https://via.placeholder.com/200x100/C0C0C0/000000?text=Silver+3"
+                  alt="Silver Sponsor 3" />
+              </div>
+              <div class="sponsor-card" data-url="SILVER_SPONSOR_4_URL">
+                <img
+                  src="https://via.placeholder.com/200x100/C0C0C0/000000?text=Silver+4"
+                  alt="Silver Sponsor 4" />
+              </div>
+            </div>
+          </div> -->
+          <div class="sponsor-tier">
+            <h3 class="sponsor-tier__title bronze">Bronze Sponsors</h3>
+            <div class="sponsor-cards">
+              <div class="sponsor-card" data-url="BRONZE_SPONSOR_1_URL">
+                <a href="https://codecrafters.io/"
+                  ><img
+                    src="https://codecrafters.io/images/logo.png"
+                    alt="Bronze Sponsor 1"
+                /></a>
+              </div>
+              <div class="sponsor-card" data-url="BRONZE_SPONSOR_2_URL">
+                <a
+                  href="https://interviewbuddy.net/?srsltid=AfmBOoqjVYD_9x8jPjI1QIPhIrU8WpkCLR-ktcXLXn4uDhM6OY2cnEvp"
+                  ><img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxT6W2J3-40UX9t2ELVsd2lBlaVIsMk63iKQ&s"
+                    alt="Bronze Sponsor 2"
+                /></a>
+              </div>
+              <div class="sponsor-card" data-url="BRONZE_SPONSOR_3_URL">
+                <a href="https://gen.xyz/"
+                  ><img src="img/xyz_logo.svg.png" alt="Bronze Sponsor 3"
+                /></a>
+              </div>
+              <!-- <div class="sponsor-card" data-url="BRONZE_SPONSOR_4_URL">
+                <img
+                  src="https://via.placeholder.com/200x100/CD7F32/FFFFFF?text=Bronze+4"
+                  alt="Bronze Sponsor 4" />
+              </div>  -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Mentors Section -->
+    <section class="mentors section" id="mentors">
+      <div class="container">
+        <div class="section__header">
+          <h2 class="section__title">Meet Our Judges</h2>
+          <p class="section__subtitle">
+            Learn from industry experts and experienced professionals
+          </p>
+        </div>
+        <div class="mentors__grid">
+          <div class="mentor-card">
+            <div class="mentor-card__image">
+              <img src="img/ashish.jpg" alt="Ashish" />
+            </div>
+            <h4>Ashish</h4>
+            <p class="mentor-card__role">Project Associate</p>
+            <p class="mentor-card__company">
+              Ministry of Science and Technology
+            </p>
+            <a
+              href="https://www.linkedin.com/in/ashishhhh?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+              ><b>Linkedin</b></a
+            >
+            <!-- <div class="mentor-card__expertise">AI & Machine Learning</div> -->
+          </div>
+          <div class="mentor-card">
+            <div class="mentor-card__image">
+              <img src="img/vani.jpg" alt="Mentor" />
+            </div>
+            <h4>Vani Mittal</h4>
+            <p class="mentor-card__role">Programmer Analyst</p>
+            <p class="mentor-card__company">Cognizant</p>
+            <a
+              href="https://www.linkedin.com/in/vani-mi-ttal?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+              ><b>Linkedin</b></a
+            >
+            <!-- <div class="mentor-card__expertise">Full-Stack Development</div> -->
+          </div>
+          <div class="mentor-card">
+            <div class="mentor-card__image">
+              <img src="img/rohan.jpg" alt="Mentor" />
+            </div>
+            <h4>Rohan Kumar</h4>
+            <p class="mentor-card__role">Software Developer</p>
+            <p class="mentor-card__company">MIDAS</p>
+            <a
+              href="https://www.linkedin.com/in/rohan-kumar-a65a87175?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+              ><b>Linkedin</b></a
+            >
+          </div>
+
+          <div class="mentor-card">
+            <div class="mentor-card__image">
+              <img src="img/akansha.jpg" alt="Mentor" />
+            </div>
+            <h4>Akansha Aggarwal</h4>
+            <p class="mentor-card__role">Software Engineer</p>
+            <p class="mentor-card__company">Applogic Networks</p>
+            <a
+              href="https://www.linkedin.com/in/akansha-aggarwal-991780204?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+              ><b>Linkedin</b></a
+            >
+          </div>
+
+          <!-- <div class="mentor-card">
+            <div class="mentor-card__image">
+              <img
+                src="https://via.placeholder.com/120x120/00C2FF/FFFFFF?text=M5"
+                alt="Mentor" />
+            </div> -->
+          <!-- <h4>[Name]</h4>
+            <p class="mentor-card__role">Senior Developer</p>
+            <p class="mentor-card__company">Amazon Web Services</p>
+            <div class="mentor-card__expertise">Cloud & DevOps</div>
+          </div> -->
+          <!-- <div class="mentor-card">
+            <div class="mentor-card__image">
+              <img
+                src="https://via.placeholder.com/120x120/00C2FF/FFFFFF?text=M6"
+                alt="Mentor" />
+            </div>
+            <h4>[Name]</h4>
+            <p class="mentor-card__role">UX Design Lead</p>
+            <p class="mentor-card__company">Adobe</p>
+            <a href=""><b>Linkedin</b></a>
+          </div> -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Organizers Section -->
+    <section class="organizers section" id="organizers">
+      <div class="container">
+        <div class="section__header">
+          <h2 class="section__title">Meet Our Organizers</h2>
+          <p class="section__subtitle">
+            The dedicated team behind The TechClasher
+          </p>
+        </div>
+        <div class="organizers__content">
+          <div class="organizer-card" data-organizer="director">
+            <div class="organizer-card__image">
+              <img src="img/director.jpg" alt="Dr. [Director Name]" />
+            </div>
+            <div class="organizer-card__content">
+              <h3 class="organizer-card__name">Dr. Dhiraj Gupta</h3>
+              <p class="organizer-card__role">Director</p>
+              <p class="organizer-card__institute">
+                Greater Noida Institute of Technology
+              </p>
+              <p class="organizer-card__description">
+                Leading GNIOT with a vision for technological excellence and
+                innovation in education.
+              </p>
+              <div class="organizer-card__social">
+                <a
+                  href="https://www.linkedin.com/in/dr-dhiraj-gupta-b980251b2?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                  class="social-btn social-btn--linkedin"
+                  data-platform="linkedin">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a
+                  href="https://www.instagram.com/dhirajgupta2502?igsh=b3ZmMGV1dnV1NTF0"
+                  class="social-btn social-btn--instagram"
+                  data-platform="instagram">
+                  <i class="fab fa-instagram"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="organizer-card" data-organizer="hod">
+            <div class="organizer-card__image">
+              <img src="img/hod.jpg" alt="Dr. [HOD Name]" />
+            </div>
+            <div class="organizer-card__content">
+              <h3 class="organizer-card__name">Dr. Vijay Shukla</h3>
+              <p class="organizer-card__role">Head of Department</p>
+              <p class="organizer-card__institute">CSE - AI/AI-DS</p>
+              <p class="organizer-card__description">
+                Guiding the department towards cutting-edge research in
+                Artificial Intelligence and Data Science.
+              </p>
+              <div class="organizer-card__social">
+                <a
+                  href="https://www.linkedin.com/in/dr-vijay-shukla?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                  class="social-btn social-btn--linkedin"
+                  data-platform="linkedin">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a
+                  href="https://www.instagram.com/dr.vijayshukla?igsh=dDRlcHNocDhoY2x3"
+                  class="social-btn social-btn--instagram"
+                  data-platform="instagram">
+                  <i class="fab fa-instagram"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="organizer-card" data-organizer="coordinator">
+            <div class="organizer-card__image">
+              <img src="img/pragya.jpg" alt="[Coordinator Name]" />
+            </div>
+            <div class="organizer-card__content">
+              <h3 class="organizer-card__name">Pragya Prayasi</h3>
+              <p class="organizer-card__role">Event Coordinator</p>
+              <p class="organizer-card__institute">Founder, Manan Club</p>
+              <p class="organizer-card__description">
+                Coordinating all aspects of The TechClasher to ensure a seamless
+                and memorable experience.
+              </p>
+              <div class="organizer-card__social">
+                <a
+                  href="https://www.linkedin.com/in/kumari-pragya-prayesi-a4a630103?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                  class="social-btn social-btn--linkedin"
+                  data-platform="linkedin">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a
+                  href="https://www.instagram.com/prayesi?igsh=cGVrMHhhNWVodWRr"
+                  class="social-btn social-btn--instagram"
+                  data-platform="instagram">
+                  <i class="fab fa-instagram"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="organizer-card" data-organizer="organizer">
+            <div class="organizer-card__image">
+              <img src="img/abhisht.jpg" alt="[Organizer Name]" />
+            </div>
+            <div class="organizer-card__content">
+              <h3 class="organizer-card__name">Abhisht Jaiswal</h3>
+              <p class="organizer-card__role">Organizer</p>
+              <p class="organizer-card__institute">
+                Vice-President, Manan Club
+              </p>
+              <p class="organizer-card__description">
+                Passionate about bringing together tech enthusiasts and
+                fostering innovation through hackathons.
+              </p>
+              <div class="organizer-card__social">
+                <a
+                  href="https://www.linkedin.com/in/abhishtjaiswal?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                  class="social-btn social-btn--linkedin"
+                  data-platform="linkedin">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a
+                  href="https://www.instagram.com/abhishtjaiswal_?igsh=MjF6enR3MGdlbHlo"
+                  class="social-btn social-btn--instagram"
+                  data-platform="instagram">
+                  <i class="fab fa-instagram"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="organizer-card" data-organizer="co-organizer">
+            <div class="organizer-card__image">
+              <img src="img/anurag.jpeg" alt="[Co-Organizer Name]" />
+            </div>
+            <div class="organizer-card__content">
+              <h3 class="organizer-card__name">Anurag Jaiswal</h3>
+              <p class="organizer-card__role">Co-Organizer</p>
+              <p class="organizer-card__institute">Secretary, Manan Club</p>
+              <p class="organizer-card__description">
+                Supporting the organization with dedication to create an
+                inspiring environment for participants.
+              </p>
+              <div class="organizer-card__social">
+                <a
+                  href="https://www.linkedin.com/in/anuragj?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                  class="social-btn social-btn--linkedin"
+                  data-platform="linkedin">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a
+                  href="https://www.instagram.com/anurag_jaiswal535?igsh=OWtncXkyanVvYzJu"
+                  class="social-btn social-btn--instagram"
+                  data-platform="instagram">
+                  <i class="fab fa-instagram"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Community Partners Section -->
+    <section class="partners section" id="partners">
+      <div class="container">
+        <div class="section__header">
+          <h2 class="section__title">Community Partners</h2>
+          <p class="section__subtitle">
+            Collaborating with amazing communities
+          </p>
+        </div>
+        <div class="partners__grid">
+          <div class="partner-card" data-url="PARTNER_1_URL">
+            <img src="img/manan.png" alt="Partner Name 1" />
+          </div>
+          <div class="partner-card" data-url="PARTNER_2_URL">
+            <img src="img/gfg_gniot.png" alt="Partner Name 2" />
+          </div>
+          <!-- <div class="partner-card" data-url="PARTNER_3_URL">
+            <img
+              src="https://via.placeholder.com/150x80/4ECDC4/FFFFFF?text=Partner+3"
+              alt="Partner Name 3" />
+            <h4>Partner Name 3</h4>
+          </div>
+          <div class="partner-card" data-url="PARTNER_4_URL">
+            <img
+              src="https://via.placeholder.com/150x80/45B7D1/FFFFFF?text=Partner+4"
+              alt="Partner Name 4" />
+            <h4>Partner Name 4</h4>
+          </div>
+          <div class="partner-card" data-url="PARTNER_5_URL">
+            <img
+              src="https://via.placeholder.com/150x80/96CEB4/000000?text=Partner+5"
+              alt="Partner Name 5" />
+            <h4>Partner Name 5</h4>
+          </div>
+          <div class="partner-card" data-url="PARTNER_6_URL">
+            <img
+              src="https://via.placeholder.com/150x80/FECA57/000000?text=Partner+6"
+              alt="Partner Name 6" />
+            <h4>Partner Name 6</h4>
+          </div> -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact section" id="contact">
+      <div class="container">
+        <div class="section__header">
+          <h2 class="section__title">Get In Touch</h2>
+          <p class="section__subtitle">Have questions? We're here to help!</p>
+        </div>
+        <div class="contact__content">
+          <div class="contact__info">
+            <div
+              class="contact-item"
+              data-type="email"
+              data-value="abhisht_2300145@gniot.net.in">
+              <i class="fas fa-envelope"></i>
+              <div>
+                <h4>Email</h4>
+                <p>atechclasher@gmail.com</p>
+              </div>
+            </div>
+            <div
+              class="contact-item"
+              data-type="phone"
+              data-value="+91-9119914640">
+              <i class="fas fa-phone"></i>
+              <div>
+                <h4>Phone</h4>
+                <p>+91-9119914640</p>
+              </div>
+            </div>
+            <div
+              class="contact-item"
+              data-type="email"
+              data-value="feedback@gniot.net.in">
+              <i class="fas fa-question-circle"></i>
+              <div>
+                <h4>Help & Support</h4>
+                <p>feedback@gniot.net.in</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <div>
+                <h4>Location</h4>
+                <p>Greater Noida Institute of Technology, Greater Noida, UP</p>
+              </div>
+            </div>
+          </div>
+          <div class="contact__social">
+            <h4>Follow Us</h4>
+            <div class="social-links">
+              <a href="https://www.facebook.com/GniotGroup" class="social-link">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="https://x.com/GNIOTCollege" class="social-link"
+                ><i class="fab fa-twitter"></i
+              ></a>
+              <a
+                href="https://www.instagram.com/gniot_cse_aids?igsh=aWFja2ZrenA1a3Bx"
+                class="social-link"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a
+                href="https://www.linkedin.com/school/greater-noida-institute-of-technology-gniot-/"
+                class="social-link"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+              <a
+                href="https://chat.whatsapp.com/K7qIQxVGlmAIAX3YZIT8Su?mode=ems_copy_t"
+                class="social-link"
+                ><i class="fab fa-whatsapp"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__content">
+          <div class="footer__brand">
+            <i class="fas fa-code"></i>
+            <span>The TechClasher</span>
+          </div>
+          <p class="footer__text">
+            Organized by MANAN Club, Department of CSE - AI/AI-DS<br />
+            Greater Noida Institute of Technology
+          </p>
+
+          <!-- Copyright and Designer credit section in same line -->
+          <div class="footer__bottom">
+            <p class="footer__copyright">
+              © 2025 The TechClasher. All rights reserved.
+            </p>
+            <div class="footer__designer">
+              <span class="designer__label">Designed by</span>
+              <a
+                href="https://x.com/Aryax1203?t=rfoARKuGjfrQ5L2EvAHM2A&s=08"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="designer__name">
+                Arya Choudhary
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-top" id="scroll-top">
+      <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <script src="app.js"></script>
+  </body>
+</html>
